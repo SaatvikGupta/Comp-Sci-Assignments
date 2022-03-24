@@ -1,0 +1,88 @@
+/* +-------------------------------------------------------------------------+
+   |         Program Description      practice drawing shapes                                       |
+   +-------------------------------------------------------------------------+
+   | Author -   Saatvik Gupta                                                                |
+   | Date   -   February 24 2022                                                             |
+   +-------------------------------------------------------------------------+
+   | Input  - none                                                                                 |
+   | Output - a hapyy face                                                               |
+   +-------------------------------------------------------------------------+ */
+   
+   include "graphic.t"
+   
+    setscreen ("graphics")   
+    background (91)      % beige background   
+    drawfillbox (100,300,250,160,1)
+    drawfillbox (0,0,640,10,112)
+    drawball (595,355,40,14)
+    drawfilloval (450,230,80,88,83)
+    drawfilloval (135,260,25,12,0)
+    drawfilloval (210,260,25,12,0)
+    drawfilloval (210,260,10,12,255)
+    drawfilloval (135,260,10,12,255)
+    
+    
+    drawarc (175,170,45,30,20,160,4)
+    
+    drawtriangle (160,215,190,215,175,240,4)
+    
+    drawfilloval (410,260,25,12,0)
+    drawfilloval (485,260,25,12,0)
+    drawfilloval (485,260,10,12,255)
+    drawfilloval (410,260,10,12,255)
+    
+    drawline (390,270,390,275,255)
+    drawline (395,270,395,275,255)
+    drawline (400,271,400,275,255)
+    drawline (405,272,405,276,255)
+    drawline (410,273,410,277,255) 
+    drawline (415,273,415,276,255) 
+    drawline (420,273,420,277,255)
+    drawline (425,271,425,275,255)
+    drawline (430,270,430,274,255)
+
+    drawline (465,270,465,275,255)
+    drawline (470,270,470,275,255)
+    drawline (475,271,475,275,255)
+    drawline (480,272,480,276,255)
+    drawline (485,273,485,277,255) 
+    drawline (490,273,490,276,255) 
+    drawline (495,273,495,277,255)
+    drawline (500,271,500,275,255)
+    drawline (505,270,505,274,255)
+    
+    
+    drawarc (450,195,45,30,200,340,4)
+    drawarc (450,170,45,30,20,160,4)
+    drawfill (450,180,35,4)
+    drawarc (450,185,40,10,210,345,255)
+    
+    drawtriangle (435,215,465,215,450,240,60)
+    
+    drawfillbox (115,45,150,160,111)
+    drawfillbox (200,45,235,160,111)
+    
+    drawfillbox (200,10,255,45,255)
+    drawfillbox (115,10,170,45,255)
+    
+    drawfillbox (50,245,100,215,111)
+    drawfillbox (50,245,76,100,111)
+    
+    drawtriangle (50,100,76,100,63,80,1)
+    
+    drawfillbox (250,245,320,215,111)
+    drawtriangle (320,215,320,245,340,230,1)
+    
+    drawfilloval (420,90,20,70,83)   
+    drawfilloval (470,90,20,70,83)
+    
+    drawfillbox (380,10,440,50,255)
+    drawfillbox (450,10,510,50,255)
+    
+    drawfilloval (370,300,20,80,83)
+    drawfilloval (570,220,60,20,83)
+    
+    
+    
+    
+
